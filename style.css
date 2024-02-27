@@ -5,8 +5,20 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
- background-image: url(img/singer-2374445_1280.jpg);
-
+    
+ 
+ }
+ body::after{
+  background-image: url(img/singer-2374445_1280.jpg);
+  content: "";
+ 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+ }
   form {
     background-color: #fff;
     display: block;
