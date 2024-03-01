@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(../Img/glowing-stage-light-illuminates-cheering-rock-fans-generated-by-ai.jpg);
+    background-size: cover;
+    
+}
+
+
+
+
+.menu {
+    margin: 2px ;
+    width: auto; /* Ajusta el ancho del menú */
+    height: 400px auto;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    
+  }
+  
+  .menu ul {
+    list-style: none;
+    
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    color: white;
+    
+  }
+  
+  .menu ul li a:hover {
+    color: #035992;
+  }
+
+
+
+.button {
+
+    top: 50%;
+}
+
+
+  body > div > div > a > input[type=button] {
+    border-style: none;
+    background: #ff83ef;
+    padding: 10px;
+    border-radius: 30px;
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+
+    
+  }
+  .contenedor {
+  display: grid;
+  place-items: end;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.elemento-grid {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+}
