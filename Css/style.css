@@ -53,13 +53,10 @@ body {
 
 
 
-.button {
-
-    top: 50%;
-}
 
 
-  body > div > div > a > input[type=button] {
+
+  body > nav > a > input[type=button] {
     border-style: none;
     background: #ff83ef;
     padding: 10px;
@@ -70,15 +67,4 @@ body {
 
     
   }
-  .contenedor {
-  display: grid;
-  place-items: end;
-  width: 200px;
-  border: 1px solid black;
-}
 
-.elemento-grid {
-  width: 100px;
-  height: 50px;
-  background-color: red;
-}
